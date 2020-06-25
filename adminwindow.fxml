@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminController">
+   <children>
+      <TableView fx:id="TableView" layoutX="36.0" layoutY="33.0" prefHeight="200.0" prefWidth="509.0">
+        <columns>
+          <TableColumn fx:id="dateintablefield" prefWidth="104.0" text="Date and Time" />
+          <TableColumn fx:id="nameintablefield" prefWidth="122.4000244140625" text="NameClient" />
+            <TableColumn fx:id="messageintablefield" minWidth="0.0" prefWidth="281.6" text="Massage" />
+        </columns>
+      </TableView>
+      <TextField fx:id="datefield" layoutX="249.0" layoutY="249.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="namefield" layoutX="249.0" layoutY="289.0" />
+      <TextField fx:id="messagefield" layoutX="249.0" layoutY="324.0" />
+      <Text layoutX="88.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date and Time" />
+      <Text layoutX="95.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NameClient" />
+      <Text layoutX="59.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message or words from it" />
+      <Button fx:id="recievebutton" layoutX="295.0" layoutY="362.0" mnemonicParsing="false" text="Receive" />
+      <Button fx:id="backtochatbutton" layoutX="505.0" layoutY="309.0" mnemonicParsing="false" text="Close" />
+      <TextField fx:id="datefield1" layoutX="409.0" layoutY="249.0" />
+      <Text layoutX="203.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example:     20191212144843                      20200130200000" wrappingWidth="369.724609375" />
+   </children>
+</AnchorPane>

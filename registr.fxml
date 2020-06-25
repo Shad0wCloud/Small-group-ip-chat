@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Regcontroller">
+    <children>
+        <TextField fx:id="loginfield" layoutX="226.0" layoutY="104.0" promptText="Login" />
+        <PasswordField fx:id="passwordfield" layoutX="225.0" layoutY="147.0" promptText="Password" />
+        <Button fx:id="registrbutton" layoutX="260.0" layoutY="342.0" mnemonicParsing="false" text="Registration" />
+      <TextField fx:id="namefield" layoutX="226.0" layoutY="187.0" promptText="Name" />
+      <TextField fx:id="clientportfield" layoutX="225.0" layoutY="265.0" promptText="ClientPort" />
+      <TextField fx:id="ipfiled" layoutX="226.0" layoutY="306.0" promptText="IP" />
+      <Button fx:id="back_button" layoutX="24.0" layoutY="17.0" mnemonicParsing="false" text="Back " />
+      <Text layoutX="138.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMchat Registration">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
